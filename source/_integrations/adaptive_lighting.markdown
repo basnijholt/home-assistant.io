@@ -237,7 +237,7 @@ Reset the `manual_control` status of a light after an hour.
 
 Toggle multiple Adaptive Lighting switches to "sleep mode" using an `input_boolean.sleep_mode`.
 ```yaml
-- alias: "Adaptive lighting: turn on and off switches"
+- alias: "Adaptive lighting: toggle 'sleep mode'"
   trigger:
     - platform: state
       entity_id: input_boolean.sleep_mode
